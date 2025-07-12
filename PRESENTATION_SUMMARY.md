@@ -10,10 +10,11 @@
 
 ### 2. **Presentación en Español**
 
-- ✅ 10 slides basadas en `temario_inicial.md`
+- ✅ 15 slides basadas en `temario_inicial.md`
 - ✅ Contenido completamente en español
 - ✅ Formato profesional con Markdown
 - ✅ Estructura lógica y coherente
+- ✅ Slides expandidas con más detalle y tips prácticos
 
 ### 3. **Imágenes de Unsplash**
 
@@ -29,6 +30,13 @@
 - ✅ Contador de tiempo de presentación
 - ✅ Barra de progreso
 - ✅ Efectos de transición suaves
+
+### 5. **Documentación de Contexto**
+
+- ✅ Documento base (`base_context.md`) para nuevas conversaciones
+- ✅ Arquitectura completa del proyecto
+- ✅ Servicios de imágenes y APIs utilizadas
+- ✅ Guía de personalización y extensión
 
 ## 🚀 Cómo usar la presentación
 
@@ -51,12 +59,15 @@ Abrir: http://localhost:8000
 ## 📁 Estructura de archivos creados
 
 ```
-reveal-presentation/
-├── index.html                    # Presentación principal
-├── cursor-ai-presentacion.md     # Contenido en Markdown
-├── customize.js                  # Script de personalización
-├── README.md                     # Documentación completa
-└── PRESENTATION_SUMMARY.md       # Este archivo
+cursor-ai-presentacion/
+├── reveal-presentation/
+│   ├── index.html                    # Presentación principal
+│   ├── cursor-ai-presentacion.md     # Contenido en Markdown (15 slides)
+│   ├── customize.js                  # Script de personalización
+│   └── README.md                     # Documentación completa
+├── temario_inicial.md               # Outline original
+├── base_context.md                  # Contexto base para nuevas conversaciones
+└── PRESENTATION_SUMMARY.md          # Este archivo
 ```
 
 ## 🎨 Temas disponibles
@@ -96,11 +107,12 @@ Usar el separador `---` en el archivo Markdown
 ## 📊 Estadísticas del proyecto
 
 - **Tiempo de creación**: ~15 minutos
-- **Slides**: 10
-- **Imágenes**: 10 de Unsplash
+- **Slides**: 15 (expandidas de 10 originales)
+- **Imágenes**: 12 de Unsplash
 - **Idioma**: Español completo
 - **Tecnologías**: Reveal.js + Markdown + Node.js
 - **Tamaño**: Optimizado para presentación
+- **Documentos**: 3 (presentación + contexto + resumen)
 
 ## 🎯 Casos de uso demostrados
 

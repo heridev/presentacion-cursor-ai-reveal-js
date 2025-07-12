@@ -9,32 +9,96 @@ _Charla práctica sobre casos reales de uso_
 
 ## ¿Qué es Cursor AI?
 
-- Un entorno de desarrollo basado en inteligencia artificial
-- Combina editor de código, terminal, navegador y documentos
-- Siempre activo: mantiene el historial del proyecto
-- Ideal para planear, ejecutar y documentar proyectos
+- **Entorno de desarrollo inteligente** basado en IA
+- **Editor de código + Terminal + Navegador + Documentos**
+- **Contexto persistente**: mantiene historial completo del proyecto
+- **Orquestador de proyectos**: más que un simple editor
 
 ![AI Workspace](https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop)
 
 ---
 
+## Chat vs Agent: Diferencias clave
+
+### **Chat tradicional (ChatGPT, Copilot):**
+
+- ❌ **Conversaciones aisladas** sin continuidad
+- ❌ **Sin memoria** entre sesiones
+- ❌ **Respuestas genéricas** sin contexto específico
+- ❌ **Sin acceso** a archivos del proyecto
+- ❌ **Sin ejecución** de comandos
+
+### **Cursor Agent (Orquestador):**
+
+- ✅ **Memoria persistente** del proyecto completo
+- ✅ **Contexto continuo** entre sesiones
+- ✅ **Acciones ejecutables** (código, comandos, archivos)
+- ✅ **Orquestación inteligente** de tareas complejas
+- ✅ **Documentación viva** que se actualiza automáticamente
+
+![AI Agent](https://images.unsplash.com/photo-1676299251956-415118d97504?w=800&h=600&fit=crop)
+
+---
+
+## Ventajas del contexto persistente
+
+- **Historial completo** del proyecto siempre disponible
+- **Documentación viva** que se actualiza automáticamente
+- **Trazabilidad** de decisiones y cambios
+- **Colaboración mejorada** entre equipos
+- **Onboarding rápido** de nuevos miembros
+
+![Context Memory](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop)
+
+---
+
 ## ¿Por qué usar un orquestador AI?
 
-- **Más que un copiloto de código**
-- **Contexto persistente** a lo largo del proyecto
-- Ideal para proyectos largos o complejos
-- Documentación viva y colaborativa
+### **Limitaciones de herramientas tradicionales:**
+
+- Copilotos solo para código
+- Documentación separada del desarrollo
+- Contexto perdido entre sesiones
+- Herramientas aisladas sin integración
+
+### **Ventajas del orquestador AI:**
+
+- **Gestión integral** del proyecto completo
+- **Automatización inteligente** de flujos de trabajo
+- **Documentación generada automáticamente**
+- **Coordinación entre herramientas** y servicios
 
 ![Workflow AI](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop)
 
 ---
 
+## Tips prácticos con Cursor AI
+
+### **Comandos útiles:**
+
+- `/` - Acceso rápido a comandos
+- `Cmd/Ctrl + K` - Chat contextual
+- `Cmd/Ctrl + L` - Chat con archivo actual
+- `Cmd/Ctrl + Shift + L` - Chat con selección
+
+### **Mejores prácticas:**
+
+- **Documenta decisiones** en archivos .md
+- **Usa contextos específicos** por proyecto
+- **Mantén historial** de conversaciones importantes
+- **Itera incrementalmente** en cambios complejos
+
+![AI Tips](https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop)
+
+---
+
 ## Usos generales en proyectos no técnicos
 
-- Planeación financiera o administrativa
-- Seguimiento por fases
-- Generación automática de reportes
-- Validación y trazabilidad por documentos
+- **Planeación financiera** o administrativa
+- **Seguimiento por fases** con documentación automática
+- **Generación automática** de reportes y dashboards
+- **Validación y trazabilidad** por documentos históricos
+- **Gestión de stakeholders** y comunicación
 
 ![Project Planning](https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop)
 
