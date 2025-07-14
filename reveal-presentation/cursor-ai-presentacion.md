@@ -1,11 +1,13 @@
 # Cursor AI.
 
-## De la planeación a la ejecución asistida con inteligencia artificial
+## De la planeación a la ejecución
 
 _Charla práctica sobre casos reales de uso_  
-**Heriberto Magaña · 2025**
+**Heriberto Magaña ·July 2025**
 
 ---
+
+<img src="images/cursor_ai.png" alt="AI Workspace" style="width: 200px; height: 200px;">
 
 ## ¿Qué es Cursor AI?
 
@@ -14,65 +16,57 @@ _Charla práctica sobre casos reales de uso_
 - **Contexto persistente**: mantiene historial completo del proyecto
 - **Orquestador de proyectos**: más que un simple editor
 
-![AI Workspace](https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop)
-
 ---
-
-## Chat vs Agent: Diferencias clave
 
 ### **Chat tradicional (ChatGPT, Copilot):**
 
-- ❌ **Conversaciones aisladas** sin continuidad
-- ❌ **Sin memoria** entre sesiones
-- ❌ **Respuestas genéricas** sin contexto específico
-- ❌ **Sin acceso** a archivos del proyecto
-- ❌ **Sin ejecución** de comandos
+<ul style="list-style: none; padding-left: 0;">
+  <li>❌ <strong>Conversaciones aisladas</strong> sin continuidad</li>
+  <li>❌ <strong>Sin memoria</strong> entre sesiones</li>
+  <li>❌ <strong>Respuestas genéricas</strong> sin contexto específico</li>
+</ul>
 
-### **Cursor Agent (Orquestador):**
+<h3 style="margin-top: 30px"> Cursor Agent (Orquestador): </h3>
 
-- ✅ **Memoria persistente** del proyecto completo
-- ✅ **Contexto continuo** entre sesiones
-- ✅ **Acciones ejecutables** (código, comandos, archivos)
-- ✅ **Orquestación inteligente** de tareas complejas
-- ✅ **Documentación viva** que se actualiza automáticamente
-
-![AI Agent](https://images.unsplash.com/photo-1676299251956-415118d97504?w=800&h=600&fit=crop)
-
----
-
-## Ventajas del contexto persistente
-
-- **Historial completo** del proyecto siempre disponible
-- **Documentación viva** que se actualiza automáticamente
-- **Trazabilidad** de decisiones y cambios
-- **Colaboración mejorada** entre equipos
-- **Onboarding rápido** de nuevos miembros
-
-![Context Memory](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop)
+<ul style="list-style: none; padding-left: 0;">
+  <li>✅ <strong>Memoria persistente</strong> del proyecto completo</li>
+  <li>✅ <strong>Contexto continuo</strong> entre sesiones</li>
+  <li>✅ <strong>Acciones ejecutables</strong> (código, comandos, archivos)</li>
+  <li>✅ <strong>Orquestación inteligente</strong> de tareas complejas</li>
+</ul>
 
 ---
 
-## ¿Por qué usar un orquestador AI?
-
-### **Limitaciones de herramientas tradicionales:**
-
-- Copilotos solo para código
-- Documentación separada del desarrollo
-- Contexto perdido entre sesiones
-- Herramientas aisladas sin integración
-
-### **Ventajas del orquestador AI:**
-
-- **Gestión integral** del proyecto completo
-- **Automatización inteligente** de flujos de trabajo
-- **Documentación generada automáticamente**
-- **Coordinación entre herramientas** y servicios
-
-![Workflow AI](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop)
+<div style="display: flex; align-items: stretch; gap: 40px;">
+  <div style="flex: 1 1 0; min-width: 0;">
+    <img 
+      src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" 
+      alt="Contexto persistente" 
+      style="
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; 
+        border-radius: 18px; 
+        box-shadow: 0 4px 32px rgba(0,0,0,0.12);
+        min-height: 300px;
+        max-height: 400px;
+        display: block;
+      "
+    >
+  </div>
+  <div style="flex: 2 1 0; min-width: 0; display: flex; flex-direction: column; justify-content: center;">
+    <h3 style="margin-top: 0; text-align: left">Contexto persistente</h3>
+    <ul>
+      <li><strong>Historial completo</strong> del proyecto siempre disponible</li>
+      <li><strong>Documentación viva</strong> que se actualiza automáticamente</li>
+      <li><strong>Trazabilidad</strong> de decisiones y cambios</li>
+      <li><strong>Colaboración mejorada</strong> entre equipos</li>
+      <li><strong>Onboarding rápido</strong> de nuevos miembros</li>
+    </ul>
+  </div>
+</div>
 
 ---
-
-## Tips prácticos con Cursor AI
 
 ### **Comandos útiles:**
 
@@ -81,49 +75,164 @@ _Charla práctica sobre casos reales de uso_
 - `Cmd/Ctrl + L` - Chat con archivo actual
 - `Cmd/Ctrl + Shift + L` - Chat con selección
 
-### **Mejores prácticas:**
+<h3 style="margin-top: 30px">Mejores prácticas:</h3>
 
 - **Documenta decisiones** en archivos .md
-- **Usa contextos específicos** por proyecto
+- **Usa contextos y reglas específicas** por proyecto
 - **Mantén historial** de conversaciones importantes
 - **Itera incrementalmente** en cambios complejos
 
-![AI Tips](https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop)
+---
+
+### Configuración de reglas(user rules)
+
+<img src="images/user_rules_cusor_ai.jpg" />
 
 ---
 
-## Usos generales en proyectos no técnicos
+### Configuración de .cursor/rules
 
-- **Planeación financiera** o administrativa
-- **Seguimiento por fases** con documentación automática
-- **Generación automática** de reportes y dashboards
-- **Validación y trazabilidad** por documentos históricos
-- **Gestión de stakeholders** y comunicación
-
-![Project Planning](https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop)
+<ul>
+  <li><strong>¿Qué son las reglas de Cursor?</strong>  
+    Permiten definir comportamientos, restricciones y buenas prácticas para tu proyecto o equipo.
+  </li>
+  <li><strong>Ubicación:</strong>  
+    Se guardan en la carpeta raiz <code>.cursor/rules/</code>
+  </li>
+  <li><strong>Formato .mdc:</strong>  
+    <code>.mdc</code> (Markdown con metadatos). Este formato permite combinar texto, listas y bloques de código.
+  </li>
+  <li><strong>¿Cómo crear una regla?</strong>
+    <ol>
+      <li>Crear folder en raiz llamado <code>.cursor/rules</code>
+      <li>Desde editor, click derecho crear nuevo archivo con extension .mdc, ejemplo: <code>naming-conventions.mdc</code></li>
+      <li>Agrega un título, descripción y los puntos clave de la regla usando Markdown.</li>
+      <li>Puedes incluir ejemplos de código, advertencias y enlaces útiles.</li>
+    </ol>
+  </li>
 
 ---
 
-## ¿Quién puede beneficiarse?
+  <h3><strong>Ejemplo básico de archivo <code>.mdc</code>:</strong></h3>
+    <pre>
+---
+description: Always verify complex errors via web search before proposing solutions
+globs: ["**/*.rb", "Gemfile*"]
+priority: high
+alwaysApply: true
+---
+# Convenciones de nombres
 
-- **Desarrolladores y equipos técnicos**
-- **Contadores y administrativos**
-- **Project Managers y analistas**
-- **Equipos interdisciplinarios**
+- Usa camelCase para variables y funciones.
+- Usa PascalCase para clases y componentes.
+- No uses guiones bajos al inicio.
+</pre>
+<ul>
+  <li><strong>Tips:</strong>
+    <ul>
+      <li>Organiza las reglas por tema o equipo.</li>
+      <li>Actualiza las reglas conforme evoluciona el proyecto.</li>
+      <li>Consulta las reglas desde la barra de comandos de Cursor.</li>
+    </ul>
+  </li>
+</ul>
 
-![Diverse Team](https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop)
+---
+
+<div style="display: flex; align-items: stretch; gap: 40px;">
+  <div style="flex: 1 1 0; min-width: 0;">
+    <img 
+      src="images/financial.jpg" 
+      alt="Planeación financiera" 
+      style="
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; 
+        border-radius: 18px; 
+        box-shadow: 0 4px 32px rgba(0,0,0,0.12);
+        min-height: 340px;
+        max-height: 480px;
+        display: block;
+      "
+    >
+  </div>
+  <div style="flex: 2 1 0; min-width: 0; display: flex; flex-direction: column; justify-content: center;">
+    <h2 style="margin-top: 0; text-align: left">Usos generales</h2>
+    <ul>
+      <li><strong>Planeación financiera</strong> o administrativa</li>
+      <li><strong>Seguimiento por fases</strong> con documentación automática</li>
+      <li><strong>Generación automática</strong> de reportes y dashboards</li>
+      <li><strong>Validación y trazabilidad</strong> por documentos históricos</li>
+      <li><strong>Gestión de stakeholders</strong> y comunicación</li>
+    </ul>
+  </div>
+</div>
+
+---
+
+<div style="display: flex; align-items: stretch; gap: 10px;">
+  <div style="flex: 1.5 1 0; min-width: 0; display: flex; flex-direction: column; justify-content: center;">
+    <h2 style="margin-top: 0; text-align: left">¿Quién puede beneficiarse?</h2>
+    <ul>
+      <li><strong>Desarrolladores y equipos técnicos</strong></li>
+      <li><strong>Contadores y administrativos</strong></li>
+      <li><strong>Project Managers y analistas</strong></li>
+      <li><strong>Equipos interdisciplinarios</strong></li>
+    </ul>
+  </div>
+  <div style="flex: 1 1 0; min-width: 0;">
+    <img 
+      src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop" 
+      alt="Diverse Team" 
+      style="
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; 
+        border-radius: 18px; 
+        box-shadow: 0 4px 32px rgba(0,0,0,0.12);
+        min-height: 340px;
+        max-height: 480px;
+        display: block;
+      "
+    >
+  </div>
+</div>
 
 ---
 
 ## Caso práctico: Upgrade de Rails 4.2 a 7.1
 
-- Plan inicial generado en Cursor AI
+- Plan inicial generado via Claude UI(markdown files)
 - Fases divididas por versiones
 - Documentos técnicos por etapa
 - Revisión automática del código y dependencias
 - Seguimiento progresivo con rollback posible
 
-![Code Refactoring](https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop)
+<img src="images/rails_logo.webp" alt="Code Refactoring" style="width: 300px; height: 150px;">
+
+---
+
+## Upgrade de Rails 4.2 a 7.1
+
+<img src="images/
+cursor_rule_validate_soluction.jpg
+" alt="cursor rule double check" style="width: 800px;">
+
+---
+
+## Incremental upgrades #1
+
+<img src="images/
+rails_upgrade_step_1.jpg
+" alt="cursor rule double check" style="width: 100%;">
+
+---
+
+## Incremental upgrades #2
+
+<img src="images/
+rails_upgrade_step_2.jpg
+" alt="cursor rule double check" style="width: 100%;">
 
 ---
 
@@ -135,18 +244,6 @@ _Charla práctica sobre casos reales de uso_
 - Mejora la documentación interna del proyecto
 
 ![Learning Process](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop)
-
----
-
-## Caso práctico: Proyecto en Electron + AI
-
-- Proyecto de escritorio con grabación de voz y transcripción
-- Planeación de arquitectura completa en Cursor
-- Automatización de scripts de build y testing
-- Integración de APIs de voz e IA
-- Generación de documentación técnica automatizada
-
-![Desktop App](https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop)
 
 ---
 
@@ -179,7 +276,4 @@ _Charla práctica sobre casos reales de uso_
 
 ### ¿Preguntas?
 
-**Heriberto Magaña**  
-_Desarrollador y consultor en tecnologías emergentes_
-
-![Thank You](https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop)
+![Thank You](images/thanks.gif)
